@@ -1,0 +1,6 @@
+certs
+certs/device certificate
+certs/private key
+certs/public key
+certs/rootCA
+secrets.h
