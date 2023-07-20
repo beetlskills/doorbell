@@ -1,5 +1,11 @@
-Arduino Setting
+Note: An additional file, "secrets.h", has to be obtained separately for AWS connection to work
+
+Arduino Library Needed:
+
+Please install the library "MQTT" by Joel Gaehwiler.
  
+Arduino Setting:
+
 1. Go to Arduino IDE's File/Preferences menu. Enter the following Additional boards manager URLs: 
 
 https://dl.espressif.com/dl/package_esp32_index.json
@@ -16,7 +22,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 7. Once running, select Tools/Serial Monitor. 
 
-8. Detection is done every 5 seconds or so. If the scpore is >200, it will be deemed as face detected.
+8. Detection is done every 5 seconds or so. If the scpore is >150, white LED will blink, otherwise red LED will blink.
 
 First commit
 
